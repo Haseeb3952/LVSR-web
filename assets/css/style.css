@@ -5,6 +5,7 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .logo {
@@ -28,7 +29,9 @@ body {
 .how-it-works-image-2 {
     height: 380px;
     width: 600px;
+    border-radius: 20px;
 }
+
 
 .plan_heading h1 {
     font-weight: 900;
@@ -141,6 +144,27 @@ body {
 .pricing_plan:hover .inside_circle {
     background-color: #7FB3FE;
 }
+
+.footer-logo img {
+    height: 80px;
+    width: 80px;
+}
+
+.useful-links ul li {
+    list-style-type: none;
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+    transition: 0.3s;
+}
+
+.social:hover {
+    transform: scale(1.1);
+}
+
+ 
 
 
 @media (max-width: 767px) {

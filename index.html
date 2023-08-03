@@ -18,6 +18,10 @@
 
     <link rel="shortcut icon" href="/assets/images/LVSR Logo.svg" type="image/x-icon" />
 
+    <!--------------------------------------------- Boxicon CDN --------------------------------------->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <title>LVSR</title>
 </head>
 
@@ -27,13 +31,13 @@
     <section>
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="/assets/images/LVSR Logo.svg" class="img-fluid logo" alt="" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -41,13 +45,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">How it works</a>
+                            <a class="nav-link active" aria-current="page" href="#works">How it works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">FAQs</a>
+                            <a class="nav-link active" aria-current="page" href="#faqs">FAQs</a>
                         </li>
                     </ul>
                 </div>
@@ -56,6 +60,8 @@
     </section>
 
     <!---------------------------------------- Navbar Section Ended ------------------------------------>
+
+
 
     <!---------------------------------------- Hero Section Started ------------------------------------>
 
@@ -80,7 +86,7 @@
 
     <!--------------------------------------- About Section Started ------------------------------------>
 
-    <section class="my-5">
+    <section class="my-5" id="about">
         <div class="container">
             <div class="text-center">
                 <h3 class="fw-bold">About</h3>
@@ -107,7 +113,7 @@
 
     <!------------------------------------ How it Works Section Started -------------------------------->
 
-    <section class="my-5 how-it-works py-5">
+    <section class="my-5 how-it-works py-5" id="works">
         <div class="container">
             <div class="text-center pt-5">
                 <h3 class="fw-bold">How it works</h3>
@@ -143,7 +149,7 @@
                         identity with LVSR.</p>
                 </div>
                 <div class="col-12 col-md-6">
-                    <img src="/assets/images/2838851.jpg" class="img-fluid how-it-works-image-2 rounded" alt="">
+                    <img src="/assets/images/2838851.jpg" class="img-fluid how-it-works-image-2 " alt="">
                 </div>
 
             </div>
@@ -155,7 +161,7 @@
     <!---------------------------------------- FAQ's Section Started ----------------------------------->
 
     <section>
-        <div class="container">
+        <div class="container" id="faqs">
             <div class="text-center">
                 <h3 class="fw-bold">FAQ's</h3>
                 <p>LVSR simplifies managing and sharing online presence. Customize your profile, share easily, and
@@ -619,7 +625,7 @@
 
     <!---------------------------------------- Plan Section Started------------------------------------->
 
-    <section class="plan hero-bg py-5 my-5">
+    <section class="plan hero-bg py-5 mt-5">
         <div class="container">
             <div class="plan_heading text-center pb-4">
                 <h1>Choose Your Plan</h1>
@@ -710,45 +716,78 @@
     </section>
 
     <!---------------------------------------------- Plan Section Ended--------------------------------->
-   
+
     <!-------------------------------------------- Footer Section Started--------------------------------->
-   
-   <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <a href="#">
-                    <img src="/assets/images/footer-logo.svg" class="img-fluid" alt="">
-                </a>
-                <p class="my-3">LVSR simplifies managing and sharing online presence. Customize your profile, share easily, and connect with others seamlessly. Experience privacy and security assurance.</p>
-            </div>
-            <div class="col-12 col-md-4">
-                <h5 class="fw-bold">Useful Links</h5>
-                <ul>
-                    <li>
-                        <a href="#">Terms and Conditions</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-4">
-                <h5 class="fw-bold">Follow Us on Social Media</h5>
+
+    <footer>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-12 col-md-4 footer-logo">
+                    <a href="#">
+                        <img src="/assets/images/footer-logo.svg" class="img-fluid" alt="">
+                    </a>
+                    <p class="my-3">LVSR simplifies managing and sharing online presence. Customize your profile, share
+                        easily, and connect with others seamlessly. Experience privacy and security assurance.</p>
+                </div>
+                <div class="col-12 col-md-4 mt-md-5 mt-0">
+                    <h5 class="fw-bold mt-5">Useful Links</h5>
+                    <div class="useful-links">
+                        <ul class="p-0">
+                            <li class="mt-md-4 mt-0">
+                                <a href="/terms-and-conditions.html" class="text-decoration-none ">Terms and
+                                    Conditions</a>
+                            </li>
+                            <li class="my-1">
+                                <a href="/privacy-policy.html" class="text-decoration-none">Privacy Policy </a>
+                            </li>
+                            <li class="my-1">
+                                <a href="/refund-policy.html" class="text-decoration-none">Refund Policy </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-md-5 mt-0">
+                    <h5 class="fw-bold mt-md-5 mt-2">Follow Us on Social Media</h5>
+                    <div class="d-flex gap-3 mb-md-0 mb-4">
+                        <a href="#" class="text-decoration-none">
+                            <div class="bg-dark social d-flex justify-content-center align-items-center rounded-circle">
+                                <i class='bx bxl-facebook text-white'></i>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <div class="bg-dark social d-flex justify-content-center align-items-center rounded-circle">
+                                <i class='bx bxl-twitter text-white'></i>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <div class="bg-dark social d-flex justify-content-center align-items-center rounded-circle">
+                                <i class='bx bxl-instagram text-white'></i>
+                            </div>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <div class="bg-dark social d-flex justify-content-center align-items-center rounded-circle">
+                                <i class='bx bxl-youtube text-white'></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-   </footer>
+    </footer>
 
-   <section class="bg-dark">
-   <div class="container">
-    <div class="row">
-        <p class="text-center bg-dark text-white py-3 m-0">Copyright © 2023 <a href="#" class="text-decoration-none text-white">LVSR</a> All Rights Reserved.</p>
-       </div>
-   </div>
-   </section>
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <p class="text-center bg-dark text-white py-3 m-0">Copyright © 2023 <a href="#"
+                        class="text-decoration-none text-white">LVSR</a> All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
 
 
-   
+
     <!--------------------------------------------- Footer Section Ended--------------------------------->
-    
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
