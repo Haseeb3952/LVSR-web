@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.hero-bg {
+    background-color: #e6f3f8;
+}
+
+.about-image {
+    height: 350px;
+    width: 350px;
+}
+
+.how-it-works {
+    background-color: #F7F7F7;
+}
+
+.how-it-works-image-2 {
+    height: 380px;
+    width: 600px;
+}
+
+
+@media (max-width: 767px) {
+    .divider {
+        display: none;
+        }
+    }
+    
+    
+    
+    @media (min-width: 767.98px) {
+    .divider {
+        display: block;
+        visibility: hidden;
+        font-size: 0;
+        }
+    }
