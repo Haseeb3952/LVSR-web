@@ -170,6 +170,11 @@ body {
     background-color: #7FB3FE;
 }
 
+.btn:hover {
+    background-color: #00a0fa;
+    border: none;
+}
+
 .footer-logo img {
     height: 70px;
     width: 70px;
