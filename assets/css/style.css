@@ -178,7 +178,7 @@ body {
 
 .btn:hover {
     background-color: #00a0fa;
-    border: none;
+    border: 1px solid #fff !important;
 }
 
 .footer-logo img {
