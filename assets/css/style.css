@@ -212,6 +212,20 @@ body {
     }
 }
 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .hide button {
+            color: #62bdfc;
+            background-color: #fff;
+            padding: 10px 40px;
+            letter-spacing: 1px;
+        }
+}
+
+ 
+
+
 
 
 @media (min-width: 767.98px) {
@@ -220,4 +234,5 @@ body {
         visibility: hidden;
         font-size: 0;
     }
+    
 }
